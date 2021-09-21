@@ -116,8 +116,7 @@ if(isset($_POST['submit']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easy Money Transfer</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!--<link rel="stylesheet" type="text/css" href="css/table.css">-->
-    <!--<link rel="stylesheet" type="text/css" href="css/navbar.css">-->
+  
 
     <style type="text/css">
 
@@ -155,13 +154,13 @@ if(isset($_POST['submit']))
             <form method="post" name="tcredit" class="tabletext" ><br>
         <div>
             <table class="table table-striped table-condensed table-bordered">
-                <tr style="color : black; background-color: white; opacity: 90%;">
+                <tr>
                     <th class="text-center">Account No.</th>
                     <th class="text-center">Account firstname</th>
                     <th class="text-center">E-mail</th>
                     <th class="text-center">Account Balane(in Rs.)</th>
                 </tr>
-                <tr style="color : black; background-color: white; opacity: 90%;">
+                <tr>
                     <td class="py-2"><?php echo $rows['Account_number'] ?></td>
                     <td class="py-2"><?php echo $rows['firstname'] ?></td>
                     <td class="py-2"><?php echo $rows['Email'] ?></td>
