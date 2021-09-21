@@ -1,0 +1,52 @@
+
+  .bg-image{
+    background-image: url('architecture-building-town-city1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 1px;
+  }
+
+
+  *{
+    padding : 0px;
+    margin: 0px;
+    }
+
+    
+    .container1{
+      height:80px;
+      width:95%;
+      display:grid;
+      grid-template-columns: 1fr 4px 1fr 4px 1fr;
+      justify-content:center;
+      align-items:center;
+      margin:30px auto;
+   }
+    
+    .container1>div{
+      text-align:center;
+    }
+
+    .border{
+      height:120%;
+      background-color:black;
+    }
+
+#favicon{
+    border-radius: 50%;
+  }
+
+#footer-a{
+  /* background-color: grey; */
+  color: white;
+  text-decoration: none;
+}
+
+#footer{
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  
+}
